@@ -1,5 +1,5 @@
-class Api::V1::ArticlesController < ApplicationController
-  before_action :set_article, only: [:show, :update, :destroy]
+class Api::V1::CardsController < ApplicationController
+  # before_action :set_article, only: [:show, :update, :destroy]
 
   # GET /cards
   def index
